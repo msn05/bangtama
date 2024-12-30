@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.5",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.37.5",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js"
+  },
+  "name": "bangtama",
+  "version": "1.0.0",
+  "description": "Api Bang Tama",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "watch": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "Api",
+    "BangTama"
+  ],
+  "author": "BangTama",
+  "license": "ISC"
+}
